@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nav-bg: #FFFFFF;
+    --main-bg: #E5E5E5;
+}
+
+body {
+    font-family: 'Poppins';
+    background: var(--main-bg);
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nav-bar {
+    height: 70px;
+    /* width: 550px; */
+    background: var(--nav-bg);
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar > .logo {
+    height: 26px;
+    width: 82px;
+    margin-block: 20px;
+    margin-left: 30px;
+}
+
+.hero-section {
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 396px;
+    height: 232px;
+    margin-top: 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    margin-left: 36px;
+    margin-top: 32px;
+}
+
+.hero-section > p{
+    margin-left: 36px;
+    margin-top: 16px;
+    width: 320px;
+    height: 56px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+}
+
+.card-section {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 9%;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-star {
+    height: 14px;
+}
+
+.card-price{
+    margin-top: auto;
+}
+
+.card-badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
